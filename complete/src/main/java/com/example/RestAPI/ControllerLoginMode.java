@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 @RequestMapping("/loginMode")
-@CrossOrigin(origins= {"http://localhost:3000","http://localhost:3001","http://localhost:8080"})
+@CrossOrigin(origins= {"http://ec2-13-56-183-214.us-west-1.compute.amazonaws.com:3000","http://localhost:3001","http://localhost:8080"})
 public class ControllerLoginMode {
     private restRepositoryLoginMode loginModeRepository;
     public ControllerLoginMode(restRepositoryLoginMode loginModeRepository) {
